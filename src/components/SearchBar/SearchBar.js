@@ -76,6 +76,7 @@ class SearchBar extends React.Component {
                     <input placeholder="Where?" onChange={this.handleLocationChange}/>
                 </div>
                 <div className="SearchBar-submit">
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <a onClick={this.handleSearch}>Let's Go</a>
                 </div>
             </div>
